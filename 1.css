@@ -662,9 +662,6 @@ li#chat__footer__menu__tv_item {
     border-left: 1px solid #000 !important;
     border-right: 2px solid #fff !important;
 }
-#chat .fa-tv:before, .fa-television:before {
-    content: "\f001";
-}
 
 li#chat__footer__menu__wall_creator_item { 
     position: relative;
