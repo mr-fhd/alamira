@@ -27,11 +27,8 @@ $("li#chat__footer__menu__notifications_item").click(function() {            $("
 $("button#guest-form__submit, button#login-form__submit").click(function() {
     jQuery(document).ready(function() {
         setTimeout(function() {
-
-            $(".chat_pane__container__banner").append("<div class='creator'><span class='name1'>مبدع الحائط </span></div>");
-
-            $(".creator").click(function() {
-                $("li#chat__footer__menu__wall_creator_item").click();
+$("#chat__body__wall_pane .chat_pane__header").append("<div class='creator'><span class='name1'>مبدع الحائط </span></div>");
+$(".creator").click(function() {                $("li#chat__footer__menu__wall_creator_item").click();
             });
 
         }, 1500);
