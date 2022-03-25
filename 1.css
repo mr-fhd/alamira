@@ -1596,7 +1596,7 @@ a#fhd1 {
 margin-left: 4px;
 }
 a#fhd2 {
-    transform: matrix(1,0,0,1,-2,8);
+    transform: matrix(1,0,0,1,0,8);
     border: 1px solid #fff;
     border-radius: 15px 15px 0 0!important;
     width: 25%;
@@ -1606,7 +1606,7 @@ a#fhd2 {
     font-family: 'rawy-bold';
 }
 a#fhd10 {
-    transform: matrix(1,0,0,1,-2,8);
+    transform: matrix(1,0,0,1,0,8);
     border: 1px solid #fff;
     border-radius: 0 0 15px 15px!important;
     width: 25%;
