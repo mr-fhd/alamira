@@ -283,9 +283,7 @@ div.users-count-label {
     right: 0;
 }
 
-div#chat__body.. {
-    background: white !important;
-}
+
 div#chat__body,
 div#chat_box__body {
     background: repeating-linear-gradient( 
@@ -296,11 +294,6 @@ div#chat_box__body {
 }
 .private_message {
     background: #ffffff7d;
-}
-
-.public_message {
-      background: #ffffff7d;
-
 }
 
 div#chat__body__messages_container {
