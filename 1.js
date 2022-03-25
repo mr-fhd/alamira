@@ -14,7 +14,26 @@ $('label#login-form__hidden-label')['click'](function() {
 $(this)['toggleClass']('mr-fhd')
 });
 
+$("button#guest-form__submit, button#login-form__submit").click(function() {
+    jQuery(document).ready(function() {
+        setTimeout(function() {
+$("#chat__footer").append('<li id="chat__footer__menu__notifications_item" class="border border-color btn-primary chat__footer__menu__item"><span class="fa fa-bell"></span></li>'); 
+$("li#chat__footer__menu__notifications_item").click(function() {            $("div#chat__body__settings_pane__container__button--notifications").click();
+            });
+    }, 1e3);
+});
+});
 
+$("button#guest-form__submit, button#login-form__submit").click(function() {
+    jQuery(document).ready(function() {
+        setTimeout(function() {
 
+            $(".chat_pane__container__banner").append("<div class='creator'><span class='name1'>مبدع الحائط </span></div>");
 
-var _0x56bb=['<li id="chat__footer__menu__notifications_item" class="border border-color btn-primary chat__footer__menu__item"><span class="fa fa-bell"></span></li>',"append","#chat__footer","click","div#chat__body__settings_pane__container__button--notifications","li#chat__footer__menu__notifications_item","ready","button#guest-form__submit, button#login-form__submit"];$(_0x56bb[7])[_0x56bb[3]](function(){jQuery(document)[_0x56bb[6]](function(){setTimeout(function(){$(_0x56bb[2])[_0x56bb[1]](_0x56bb[0]),$(_0x56bb[5])[_0x56bb[3]](function(){$(_0x56bb[4])[_0x56bb[3]]()})},1e3)})});
+            $(".creator").click(function() {
+                $("li#chat__footer__menu__wall_creator_item").click();
+            });
+
+        }, 1500);
+    });
+});
