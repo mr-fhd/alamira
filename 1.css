@@ -1465,11 +1465,29 @@ animation: slidein 3s cubic-bezier(.52, .3, .07, 1) forwards;
     height: 100px;
 }
 
+#tv_box {
+    min-width: 80%;
+    max-width: 80%;
+    display: block;
+}
 
-
-
-
-
+#tv_box__header {
+    background-color: transparent;
+    color: cornflowerblue;
+    text-align: center;
+}
+#tv_box__body {
+    width: 100%;
+    height: 400px;
+    background: none;
+}
+#tv_box__body iframe {
+    height: 400px;
+    background-color: #00000029;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 0px;
+}
 
 
 .popup {
