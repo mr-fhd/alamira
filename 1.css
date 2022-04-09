@@ -537,8 +537,10 @@ input::-moz-placeholder,
 }
 
 .chat__footer__menu__item {
-    max-width: 100%;
     cursor: pointer;
+    width: 100%;
+    min-width: 10%;
+    max-width: 100%;
     height: 30px;
 }
 li#chat__footer__menu__users_item {
