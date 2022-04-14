@@ -34,3 +34,16 @@ $(".creator").click(function() {                $("li#chat__footer__menu__wall_c
         }, 1500);
     });
 });
+
+$("button#guest-form__submit, button#login-form__submit").click(function(){
+jQuery(document).ready(function() {
+    setTimeout(function() {
+$("div#chat__body__settings_pane form").append('<div id="dark-mod"><span class="sun"></span><span class="dark"></span></div>')
+  $("div#dark-mod").click(function(){
+    $("span.sun").toggleClass("dsible");
+$("span.dark").toggleClass("active");
+    $("body").toggleClass("dark-mode");
+  });
+    }, 1500);
+});
+});
