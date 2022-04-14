@@ -742,10 +742,8 @@ li#chat__footer__menu__cam_item {
 }
 
 .chat_pane__user_item__cam, .chat_pane__user_item__loader {
-    position: relative;
-    top: 0;
-    right: 0;
-    float: right;
+    top: -2px;
+    right: -4px;
 }
 
 
@@ -916,17 +914,14 @@ li#chat__footer__menu__cam_item {
 
 .chat_pane__user_item__flag {
     position: absolute;
-    top: .05em;
-    right: .05em;
+    top: 28px;
+    right: 0.05em;
     transform: rotate(0deg);
-    height: 14px;
-    width: 13px!important;
-    margin-top: 4px;
-    margin-right: 4px;
+    height: 16px;
+    width: 16px!important;
+    margin-top: 0;
+    margin-right: 5px;
 }
-
-
-
 
 .chat_pane__user_item__avatar .status.state_active {
     background: linear-gradient(
