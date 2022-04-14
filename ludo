@@ -1,0 +1,228 @@
+main {
+    background: #32184c45!important;
+    border-radius: 2%;
+}
+.ludo-board {
+    width: 80%!important;
+    height: 60%!important;
+    max-width: 80%!important;
+    max-height: 60%!important;
+    background: transparent;
+    border-radius: 16px;
+    backdrop-filter: blur(0.6px);
+    -webkit-backdrop-filter: blur(0.6px);
+    border: 1px solid rgba(255, 255, 255, 0.43);
+    box-shadow: 0px 0px 5px 0px black;
+    display: grid;
+    grid-template-columns: repeat(15,1fr);
+    grid-template-rows: repeat(15,1fr);
+}
+.container {
+    top: 60px;
+    gap: 20px;
+    width: 80%!important;
+    height: 80%!important;
+    max-width: 100%!important;
+    max-height: 100%!important;
+    padding-top: 0px!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    right: 0%;
+    left: 0%;
+    z-index: 2;
+}
+.white-box {
+    background-color: rgba(255,255,255,0.8);
+    width: 70%;
+    height: 70%;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    box-sizing: border-box;
+}
+.winner-home {
+    contain: content;
+    border-style: dashed;
+    background: transparent;
+    border-radius: 25px;
+    margin: auto;
+    position: relative;
+    padding: 40px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+.step {
+    background-color: #fff6;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+.player {
+    height: 18px!important;
+    width: 18px!important;
+}
+.player-room {
+    gap: 20px!important;
+}
+.stack .player:nth-child(1), .stack .player:nth-child(2), .stack .player:nth-child(3), .stack .player:nth-child(4) {
+    position: sticky;
+    margin-right: 0px;
+    margin-left: -10px;
+    margin-top: auto;
+}
+#blue-dice, #green-dice, #red-dice, #yellow-dice {  
+    width: 39px!important;
+    height: 39px!important;
+    outline-style: auto;
+}
+
+
+.rwh {
+    border-left: 82px solid transparent;
+}
+.bg-red {
+    background-color: #ff00067d;
+}
+.player.bg-red { 
+    box-shadow: none;
+    border: transparent;
+    background-color: transparent;
+    background-image: url(https://alamira.net/files/images/ywb6vr283osoq5_i.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 50px!important;
+    margin-top: -22px!important;
+    filter: hue-rotate(298deg);
+}
+.red-home {
+    border: 2px solid rgba(0,0,0,0.3);
+    grid-column: 1/7;
+    grid-row: 1/7;
+}
+.super-center.red-home {
+    border-top-left-radius: 14px;
+}
+.super-center.red-home .white-box {
+    background-color: #ebd0d0;
+    background-size: 100%;
+
+}
+.super-center.active.red-home .white-box {
+    -webkit-animation: ludo-1 0.7s linear infinite;
+    animation: ludo-1 0.7s linear infinite;
+}
+
+
+
+.gwh {
+    border-top: 82px solid transparent;
+}
+.bg-green {
+    background-color: #09ff5826;
+}
+.player.bg-green { 
+    box-shadow: none;
+    border: transparent;
+    background-color: transparent;
+    background-image: url(https://alamira.net/files/images/ywb6vr283osoq5_i.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 50px!important;
+    margin-top: -22px!important;
+    filter: hue-rotate(89deg);
+}
+.green-home {
+    border: 2px solid rgba(0,0,0,0.3);   
+    grid-column: 10/16;
+    grid-row: 1/7;
+}
+.super-center.green-home {
+    border-top-right-radius: 14px;
+}
+.super-center.green-home .white-box {
+    background-color: #ebd0d0;
+    background-size: 100%;
+
+}
+.super-center.active.green-home .white-box {
+    -webkit-animation: ludo-1 0.7s linear infinite;
+    animation: ludo-1 0.7s linear infinite;
+}
+
+
+.ywh {
+    border-right: 82px solid transparent;
+}
+.bg-yellow {
+    background-color: #ffc60080;
+}
+.player.bg-yellow { 
+    box-shadow: none;
+    border: transparent;
+    background-color: transparent;
+    background-image: url(https://alamira.net/files/images/ywb6vr283osoq5_i.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 50px!important;
+    margin-top: -22px!important;
+}
+.yellow-home {
+    border: 2px solid rgba(0,0,0,0.3);
+    grid-column: 10/16;
+    grid-row: 10/16;
+}
+.super-center.yellow-home {
+    border-bottom-right-radius: 14px;
+}
+.super-center.yellow-home .white-box {
+    background-color: #ebd0d0;
+    background-size: 100%;
+
+}
+.super-center.active.yellow-home .white-box {
+    -webkit-animation: ludo-1 0.7s linear infinite;
+    animation: ludo-1 0.7s linear infinite;
+}
+
+
+.bwh {
+    border-bottom: 82px solid transparent;
+}
+.bg-blue {
+    background-color: #0080ff42;
+}
+.player.bg-blue { 
+    box-shadow: none;
+    border: transparent;
+    background-color: transparent;
+    background-image: url(https://alamira.net/files/images/ywb6vr283osoq5_i.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 50px!important;
+    margin-top: -22px!important;
+    filter: hue-rotate(178deg);
+}
+.blue-home {
+    border: 2px solid rgba(0,0,0,0.3);   
+    grid-column: 1/7;
+    grid-row: 10/16;
+}
+.super-center.blue-home {
+    border-bottom-left-radius: 14px;
+}
+.super-center.blue-home .white-box {
+    background-color: #ebd0d0;
+    background-size: 100%;
+
+}
+.super-center.active.blue-home .white-box {
+    -webkit-animation: ludo-1 0.7s linear infinite;
+    animation: ludo-1 0.7s linear infinite;
+}
