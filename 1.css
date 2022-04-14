@@ -755,27 +755,27 @@ li#chat__footer__menu__cam_item {
     margin: -16px;
     width: 50px;
     height: 50px;
-    content: url(/files/images/jquqlg4rn7uzf8ke.png);
+    content: url(https://alamira.net/files/images/jquqlg4rn7uzf8ke.png);
 }
 .cam_open {
     padding: 0;
     margin: -16px;
     width: 50px;
     height: 50px;
-    content: url(/files/images/sllv4g7w8wk_z2qr.gif);
+    content: url(https://alamira.net/files/images/sllv4g7w8wk_z2qr.gif);
     cursor: pointer;
     animation: pulse 1s linear infinite;
 }
 .chat_pane__user_item__cam.closed {
     width: 38px;
     height: 32px;
-    content: url(/files/images/jquqlg4rn7uzf8ke.png);
+    content: url(https://alamira.net/files/images/jquqlg4rn7uzf8ke.png);
 }
 
 .chat_pane__user_item__cam.open {
     width: 38px;
     height: 32px;
-    content: url(/files/images/sllv4g7w8wk_z2qr.gif);
+    content: url(https://alamira.net/files/images/sllv4g7w8wk_z2qr.gif);
     cursor: pointer;
     animation: pulse 1s linear infinite;
 }
